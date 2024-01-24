@@ -13,7 +13,10 @@ const Projects = () => {
           tech="Astro, React, Firebase, JavaScript, Tailwind"
           description="The website for the SFHacks Hackathon.  "
         />
-        <Project />
+        <Project
+          title="NewsGram"
+          description="A news app with an emphasis on rapidly feeding the user simplified descriptions of each artile"
+        />
       </div>
     </div>
   );
