@@ -15,7 +15,9 @@ const Projects = () => {
         />
         <Project
           title="NewsGram"
-          description="A news app with an emphasis on rapidly feeding the user simplified descriptions of each artile"
+          description="A news app with an emphasis on rapidly feeding the user simplified descriptions of each article. It also has authentication and uses firebase. "
+          img="/newsGram.png"
+          url="https://news-gram-akim-tarasovs-projects.vercel.app/"
         />
       </div>
     </div>
