@@ -7,10 +7,7 @@ const AboutMe = () => {
         About Me
       </p>
       <div className="flex flex-col  ">
-        <img
-          src="/public/MyPhoto.jpg"
-          className="  w-52 self-center rounded-full"
-        />
+        <img src="/MyPhoto.jpg" className="  w-52 self-center rounded-full" />
 
         <p className="text-white text-center p-5 font-VarelaRound font-bold  md:p-20">
           Greetings, I'm Akim Tarasov, a Computer Science student at San

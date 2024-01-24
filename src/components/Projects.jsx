@@ -8,7 +8,7 @@ const Projects = () => {
       </p>
       <div className="flex justify-center gap-5">
         <Project
-          img="/public/logopupleBluewithtext.png"
+          img="/logopupleBluewithtext.png"
           title="SFHacks 2024"
           tech="Astro, React, Firebase, JavaScript, Tailwind"
           description="The website for the SFHacks Hackathon.  "
