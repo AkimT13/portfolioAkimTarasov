@@ -6,7 +6,7 @@ const Projects = () => {
       <p className="text-white text-3xl p-10 md:pl-36 font-VarelaRound">
         Projects
       </p>
-      <div className="flex justify-center gap-5">
+      <div className="flex flex-col items-center gap-10 md:flex-row justify-center ">
         <Project
           img="/logopupleBluewithtext.png"
           title="SFHacks 2024"
