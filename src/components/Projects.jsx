@@ -19,6 +19,11 @@ const Projects = () => {
           img="/newsGram.png"
           url="https://news-gram-akim-tarasovs-projects.vercel.app/"
         />
+        <Project
+          title="FruitDetection"
+          description="A simple convelutional nearal network used to detect fruit"
+          img="/fruit.png"
+        />
       </div>
     </div>
   );

@@ -9,8 +9,15 @@ const Navbar = () => {
         <a href="https://github.com/AkimT13" target="_blank">
           <FaGithub color={"white"} size={30} className="cursor-pointer" />
         </a>
-
-        <FaLinkedin color={"white"} size={30} className="cursor-pointer" />
+        <a>
+          <FaLinkedin
+            color={"white"}
+            size={30}
+            className="cursor-pointer"
+            href="https://linkedin.com/in/akim-tarasov-2b1072298"
+            blank="_blank"
+          />
+        </a>
       </div>
     </div>
   );
