@@ -12,17 +12,35 @@ const Projects = () => {
           title="SFHacks 2024"
           tech="Astro, React, Firebase, JavaScript, Tailwind"
           description="The website for the SFHacks Hackathon.  "
+          fullDescription={{
+            details: "",
+            technologies: "",
+            issues: "",
+            futureDevelopment: "",
+          }}
         />
         <Project
           title="NewsGram"
           description="A news app with an emphasis on rapidly feeding the user simplified descriptions of each article. It also has authentication and uses firebase. "
           img="/newsGram.png"
           url="https://news-gram-akim-tarasovs-projects.vercel.app/"
+          fullDescription={{
+            details: "",
+            technologies: "",
+            issues: "",
+            futureDevelopment: "",
+          }}
         />
         <Project
           title="FruitDetection"
           description="A simple convelutional nearal network used to detect fruit"
           img="/fruit.png"
+          fullDescription={{
+            details: "",
+            technologies: "",
+            issues: "",
+            futureDevelopment: "",
+          }}
         />
       </div>
     </div>
