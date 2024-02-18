@@ -12,13 +12,14 @@ const Project = ({
 }) => {
   const [moreDescription, setMoreDescription] = useState(true);
   const expand = () => {
+    console.log("Button");
     setMoreDescription((prevMoreDescription) => !prevMoreDescription);
   };
   return (
     <>
       <div
         onClick={expand}
-        className="w-[20rem] h-auto border rounded-2xl bg-zinc-900 hover:scale-105 transition ease-in-out duration-500 cursor-pointer z-50"
+        className="w-[20rem] h-auto border rounded-2xl bg-zinc-900 hover:scale-105 transition ease-in-out duration-500 cursor-pointer z-50 "
       >
         {moreDescription ? (
           <div>
@@ -34,7 +35,7 @@ const Project = ({
             </p>
           </div>
         ) : (
-          <div></div>
+          <Description fullDescription={fullDescription} />
         )}
       </div>
     </>
