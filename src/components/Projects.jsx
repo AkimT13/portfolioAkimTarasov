@@ -32,7 +32,7 @@ const Projects = () => {
             details:
               "NewsGram is a fullstack news application designed to condense extensive articles into easily digestible snippets. The goal is to empower users to quickly acquire information on current events without the cognitive load associated with reading lengthy articles. ",
             technologies:
-              " React, Javascript, Vite, Vercel, NewsApi, gpt-3.5, Firebase",
+              " React, Javascript, Vite, Vercel, NewsApi, gpt-3.5, Firebase, Tailwind, Node",
 
             futureDevelopment:
               " I want to implement more security for the database. Additonally, I have ideas for features that involve a lot more expertise in the area of machine alrning, such as a way to compare similar articles from different news websites in order to detect biases. As well as a chatbot feature that uses realtime events for context. These features would make this webiste a full fledged app that can solve many problems that people have when attempting to find information on current events.",
