@@ -35,7 +35,7 @@ const Project = ({
             </p>
           </div>
         ) : (
-          <Description fullDescription={fullDescription} />
+          <Description fullDescription={fullDescription} title={title} />
         )}
       </div>
     </>
